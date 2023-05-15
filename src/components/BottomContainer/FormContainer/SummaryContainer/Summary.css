@@ -1,0 +1,383 @@
+.summaryContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 16px 24px;
+	gap: 12px;
+	width: 501px;
+	/* height: 180px; */
+	background: #ffffff;
+	border-top: 2px solid #bebebe;
+	/*Insideautolayout*/
+	flex: none;
+	order: 3;
+	align-self: stretch;
+	flex-grow: 0;
+	margin-top: 40px;
+}
+
+.sumtextContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	padding: 0px;
+	gap: 12px;
+
+	width: 503px;
+	height: 24px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+.subscriptionText {
+	width: 119px;
+	height: 19px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 120%;
+	/* or 19px */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #3c4852;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.amountText {
+	width: 61px;
+	height: 16px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 100%;
+	/* identical to box height, or 16px */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	color: #3c4852;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+/* ALERT OFFER ....................................................... */
+
+.alertOffer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 12px 24px;
+	gap: 4px;
+	width: 495px;
+	background: linear-gradient(
+		135deg,
+		rgba(222, 67, 19, 0.2) 0%,
+		rgba(222, 67, 19, 0.2) 0.75%,
+		rgba(222, 67, 19, 0.2) 2.92%,
+		rgba(222, 68, 20, 0.2) 6.37%,
+		rgba(223, 69, 21, 0.2) 10.97%,
+		rgba(223, 72, 22, 0.2) 16.59%,
+		rgba(224, 75, 24, 0.2) 23.1%,
+		rgba(225, 80, 27, 0.2) 30.37%,
+		rgba(227, 86, 31, 0.2) 38.27%,
+		rgba(229, 94, 36, 0.2) 46.66%,
+		rgba(231, 104, 43, 0.2) 55.41%,
+		rgba(235, 117, 51, 0.2) 64.39%,
+		rgba(238, 132, 60, 0.2) 73.47%,
+		rgba(243, 149, 71, 0.2) 82.52%,
+		rgba(248, 169, 84, 0.2) 91.41%,
+		rgba(254, 193, 99, 0.2) 100%
+	);
+
+	border-image: linear-gradient(
+			135deg,
+			#de4313 0%,
+			#de4313 0.75%,
+			#de4313 2.92%,
+			#de4414 6.37%,
+			#df4515 10.97%,
+			#df4816 16.59%,
+			#e04b18 23.1%,
+			#e1501b 30.37%,
+			#e3561f 38.27%,
+			#e55e24 46.66%,
+			#e7682b 55.41%,
+			#eb7533 64.39%,
+			#ee843c 73.47%,
+			#f39547 82.52%,
+			#f8a954 91.41%,
+			#fec163 100%
+		)
+		1;
+	border-radius: 90px;
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.gradient-border {
+	/* border: 4px solid transparent;
+	border-image: linear-gradient(
+		135deg,
+		#de4313 0%,
+		#de4313 0.75%,
+		#de4313 2.92%,
+		#de4414 6.37%,
+		#df4515 10.97%,
+		#df4816 16.59%,
+		#e04b18 23.1%,
+		#e1501b 30.37%,
+		#e3561f 38.27%,
+		#e55e24 46.66%,
+		#e7682b 55.41%,
+		#eb7533 64.39%,
+		#ee843c 73.47%,
+		#f39547 82.52%,
+		#f8a954 91.41%,
+		#fec163 100%
+	);
+	border-image-slice: 1;
+	border-radius: 10px; */
+}
+.gradient-border-wrapper {
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.gradient-border {
+	border: 4px solid transparent;
+	border-image: linear-gradient(
+		135deg,
+		#de4313 0%,
+		#de4313 0.75%,
+		#de4313 2.92%,
+		#de4414 6.37%,
+		#df4515 10.97%,
+		#df4816 16.59%,
+		#e04b18 23.1%,
+		#e1501b 30.37%,
+		#e3561f 38.27%,
+		#e55e24 46.66%,
+		#e7682b 55.41%,
+		#eb7533 64.39%,
+		#ee843c 73.47%,
+		#f39547 82.52%,
+		#f8a954 91.41%,
+		#fec163 100%
+	);
+	border-image-slice: 1;
+}
+
+.alertHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px;
+	gap: 12px;
+
+	width: 503px;
+	height: 24px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+.limitedTimeOffer {
+	width: 129px;
+	height: 19px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 120%;
+	/* or 19px */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #de4313;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.limitedTimeOfferAmount {
+	width: 72px;
+	height: 16px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 100%;
+	/* identical to box height, or 16px */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	color: #3c4852;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.alertBody {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 8px;
+
+	width: 224px;
+	height: 24px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.iconClock {
+	width: 24px;
+	height: 24px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.offerValidText {
+	width: 192px;
+	height: 17px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	/* identical to box height, or 17px */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #de4313;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+/* BOTTOM TEXT CONTAINER */
+
+.bottomTextContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px;
+	gap: 12px;
+
+	width: 483px;
+	height: 24px;
+
+	flex: none;
+	order: 2;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+.leftText {
+	height: 19px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 120%;
+	/* or 19px */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #3c4852;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.rightText {
+	width: 57px;
+	height: 24px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 100%;
+	/* identical to box height, or 24px */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	color: #3c4852;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}

@@ -1,0 +1,13 @@
+.mainLockupContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 48px;
+
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	left: 144px;
+	top: 72px;
+}

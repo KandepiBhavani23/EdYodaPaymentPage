@@ -1,0 +1,21 @@
+.pointersContainer {
+	padding: 0px;
+	gap: 64px;
+	width: 799px;
+	height: 64px;
+}
+
+.textContainer {
+	padding: 0px;
+	gap: 8px;
+	width: 401px;
+	height: 32px;
+}
+
+.pointerText {
+	width: 401px;
+	height: 32px;
+	font-size: 32px;
+	line-height: 100%;
+	letter-spacing: 0.03em;
+}

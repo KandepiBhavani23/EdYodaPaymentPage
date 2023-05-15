@@ -1,0 +1,85 @@
+.header {
+	padding: 0px;
+	/* width: 799px;
+	height: 148px; */
+}
+
+.frame12502 {
+	padding: 0px;
+	width: 799px;
+	height: 70px;
+}
+
+.frame12502Heading {
+	width: 799px;
+	height: 70px;
+	font-size: 56px;
+	letter-spacing: 0.03em;
+}
+
+.frame12408 {
+	padding: 0px;
+	isolation: isolate;
+	width: 799px;
+	height: 80px;
+}
+
+.text18500 {
+	width: 243px;
+	height: 80px;
+	font-size: 64px;
+	letter-spacing: -0.01em;
+	z-index: 0;
+}
+
+.linestrike {
+	width: 174px;
+	height: 8px;
+	left: 50px;
+	top: 37px;
+	background: #ff0000;
+	z-index: 1;
+}
+
+.frame12589 {
+	padding: 0px;
+	z-index: 2;
+	height: 70px;
+	width: 159px;
+	left: 259px;
+	top: 10px;
+	border-radius: 0px;
+}
+
+.atJustText {
+	width: 159px;
+	height: 70px;
+	font-size: 56px;
+	letter-spacing: -0.01em;
+}
+
+.frame12590 {
+	padding: 0px;
+	width: 121px;
+	height: 80px;
+	z-index: 3;
+}
+
+.text99 {
+	width: 121px;
+	height: 80px;
+	font-size: 64px;
+	letter-spacing: -0.01em;
+}
+
+.frame12591 {
+	padding: 0px;
+	width: 228px;
+	height: 70px;
+	z-index: 4;
+}
+
+.perYear {
+	font-size: 56px;
+	letter-spacing: -0.01em;
+}

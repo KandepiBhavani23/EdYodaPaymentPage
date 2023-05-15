@@ -1,0 +1,9 @@
+.bottomContainer {
+	position: relative;
+	background: url("E:\EdYodaAssignment\edyodapaymentpage\src\assets\Background.png");
+	background-size: cover;
+	min-width: 1920px;
+	min-height: 1008px;
+	left: 0px;
+	top: 2px;
+}

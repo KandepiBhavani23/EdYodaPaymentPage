@@ -1,0 +1,111 @@
+.buttonContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 16px;
+	margin-top: -20px;
+
+	width: 501px;
+	height: 56px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 4;
+	align-self: center;
+	flex-grow: 0;
+}
+
+.secondaryButton {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 42px;
+	gap: 10px;
+
+	width: 150.5px;
+	height: 26px;
+
+	border: 2px solid #f77171;
+	border-radius: 4px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+}
+
+.cancelButton {
+	width: 61px;
+	height: 19px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #f77171;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.primaryButton {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 42px;
+	gap: 10px;
+
+	width: 150.5px;
+	height: 26px;
+
+	background: #47ba68;
+	border-radius: 4px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 1;
+}
+
+.proceedPayment {
+	width: 148px;
+	height: 19px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #ffffff;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
